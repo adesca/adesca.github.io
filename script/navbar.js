@@ -1,8 +1,10 @@
 window.onload = function() {
     console.log('onload');
-    var open = function() {console.log('open')};
+    var open = function() {
+        alert('open');
+    };
 
-    document.getElementById('site-logo').addEventListener('click', function() {console.log('hi')});
+    document.getElementById('site-logo').addEventListener('click', open);
     console.log('loaded ', document.getElementById('site-logo'));
 };
 
