@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
 nav ul {
-  list-style-type: none; }
+  list-style-type: none;
+  padding-left: 0; }
   nav ul li a {
     text-transform: uppercase;
     font: bold 18px "Quicksand", sans-serif;
@@ -56,7 +57,7 @@ nav ul {
   aside {
     display: block;
     position: fixed;
-    width: 30vw;
+    width: 40vw;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6); }
     aside #navbar-site-logo {
