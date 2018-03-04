@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #010C26;
+  height: 25px; }
+  footer h3 {
+    color: white;
+    margin: 5px 0 5px 20px;
+    font: normal 12px "Arvo", serif; }
+
+section.shifted {
+  position: relative;
+  margin-left: 35vw; }
+
+div.page {
+  padding: 100px 0 0; }
+
+/*# sourceMappingURL=style.css.map */

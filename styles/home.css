@@ -34,9 +34,6 @@ section {
     color: white; }
     section .register-link a:hover {
       background-color: #3C56A4; }
-  section.shifted {
-    position: relative;
-    margin-left: 55vw; }
 
 aside.expanded + section div {
   border: black thick dotted; }

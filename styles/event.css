@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
+div.page {
+  background-color: #4f0000;
+  padding-bottom: 90px;
+  padding-left: 90px;
+  padding-right: 90px; }
+
+.event-overview .event-info-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .event-overview .event-info-section.left {
+    align-items: flex-start; }
+    .event-overview .event-info-section.left .event-info-section-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: flex-start;
+      background-color: #CAB2B2; }
+  .event-overview .event-info-section.right {
+    align-items: flex-end; }
+    .event-overview .event-info-section.right .event-info-section-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      align-self: flex-end;
+      background-color: #CAB2B2; }
+      .event-overview .event-info-section.right .event-info-section-content p {
+        text-align: right; }
+  .event-overview .event-info-section p {
+    margin: 1em 2em 1em 2em;
+    font: bold 16px 'Quicksand', sans-serif; }
+  .event-overview .event-info-section h3 {
+    margin: 0px 0px -11px 0px;
+    font: bold 60px 'Verdana', serif;
+    color: #B89999;
+    text-shadow: 3px -3px 2px #000000;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.7;
+    z-index: 2; }
+  .event-overview .event-info-section.about .event-info-section-content p {
+    max-width: 800px; }
+  .event-overview .event-info-section.location .event-info-section-content .event-location {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1em; }
+    .event-overview .event-info-section.location .event-info-section-content .event-location p {
+      max-width: 600px; }
+  .event-overview .event-info-section.parking .event-info-section-content .parking-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1em; }
+    .event-overview .event-info-section.parking .event-info-section-content .parking-location p {
+      max-width: 600px; }
+  .event-overview .event-info-section.housing .event-info-section-content a {
+    margin-top: 12px;
+    color: #000000;
+    padding: 0px 2px 1px 2px;
+    text-decoration: none;
+    border-bottom: 1px solid #909090;
+    transition: all 0.3s;
+    margin-bottom: 1px; }
+    .event-overview .event-info-section.housing .event-info-section-content a:hover {
+      border-bottom: 2px solid #3C56A4;
+      margin-bottom: 0px; }
+  .event-overview .event-info-section.housing .event-info-section-content p {
+    max-width: 800px; }
+
+/*# sourceMappingURL=event.css.map */
