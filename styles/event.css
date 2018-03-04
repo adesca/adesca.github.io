@@ -15,8 +15,7 @@ body {
 .event-overview p {
   margin: 1em 2em 1em 2em;
   font-size: medium;
-  font-family: 'Quicksand', sans-serif;
-  max-width: 800px; }
+  font-family: 'Quicksand', sans-serif; }
 
 .event-overview h3 {
   margin: 0 0px -11px 0px;
@@ -30,9 +29,16 @@ body {
   z-index: 2; }
 
 .event-overview .event-info-section-content {
-  background-color: #CAB2B2; }
+  background-color: #CAB2B2;
+  overflow: auto; }
 
-.event-overview .event-info-section.right {
-  text-align: right; }
+.event-overview .event-info-section {
+  max-width: 800px; }
+  .event-overview .event-info-section.right {
+    text-align: right; }
+    .event-overview .event-info-section.right img {
+      float: right; }
+  .event-overview .event-info-section.left img {
+    float: left; }
 
 /*# sourceMappingURL=event.css.map */

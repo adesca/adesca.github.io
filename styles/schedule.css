@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
+.schedule-overview {
+  padding-top: 90px;
+  width: 100%;
+  min-height: calc(100% - 2 * 90px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 90px; }
+
+.schedule-overview table tr td {
+  padding: 0.5em;
+  text-align: center;
+  font: bold 12px "Quicksand", sans-serif;
+  width: 20vw; }
+
+.schedule-overview table tr td.time {
+  background-color: white;
+  width: auto; }
+
+.schedule-overview table tr td.schedule-title {
+  font: bold 35px 'Quicksand', sans-serif;
+  padding-bottom: 0px; }
+
+.schedule-overview table tr td.date {
+  font: bold 25px 'Quicksand', sans-serif;
+  text-align: left;
+  padding-left: 0px; }
+
+.schedule-overview table tr td.event {
+  background-color: lightgray; }
+
+.schedule-overview table tr td.dance {
+  background-color: #f0dcdc; }
+
+.schedule-overview table tr td.class {
+  background-color: aliceblue; }
+
+.schedule-overview table tr td.class .class-teachers {
+  font-weight: normal; }
+
+.schedule-overview table tr td.min30 {
+  height: calc(30vh * 0.1); }
+
+.schedule-overview table tr td.min60 {
+  height: calc(60vh * 0.1); }
+
+.schedule-overview table tr td.min90 {
+  height: calc(90vh * 0.1); }
+
+.schedule-overview table tr td.min120 {
+  height: calc(120vh * 0.1); }
+
+.schedule-overview table tr td.min240 {
+  height: calc(240vh * 0.1); }
+
+.schedule-overview table tr td .schedule-location {
+  font-weight: normal; }
+
+/*# sourceMappingURL=schedule.css.map */

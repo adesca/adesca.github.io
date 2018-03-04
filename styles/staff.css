@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
+.staff-overview {
+  padding-top: 90px;
+  min-height: calc(100% - 90px);
+  text-align: center;
+  background-color: #29469B; }
+
+.staff-overview .staff-group {
+  padding-bottom: 30px;
+  background-color: #F0F8FF; }
+
+.staff-overview .staff-group .group-title {
+  background-color: #29469B;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center; }
+
+.staff-overview .staff-group .group-title h3 {
+  font: bold 35px "Verdana", serif;
+  padding: 0px 0px 3px 0px;
+  margin: 0px;
+  color: #F0F8FF;
+  border-bottom: 5px solid #F0F8FF;
+  border-top: 5px solid #F0F8FF;
+  min-width: 400px;
+  border-radius: 5px; }
+
+.staff-overview .instructors .instructor-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.staff-overview .instructors .instructor-photos .instructor-photo-box {
+  padding: 0px 30px 30px 30px; }
+
+.staff-overview .instructors .instructor-photos .instructor-photo-box h4 {
+  font: bold 30px 'Arvo', serif;
+  margin: 20px 0px 10px 0px;
+  position: relative;
+  top: 400px;
+  color: #F0F8FF;
+  text-transform: uppercase;
+  background-color: #29469B;
+  opacity: 0.7;
+  word-spacing: 5px; }
+
+@supports (-ms-ime-align: auto) {
+  .staff-overview .instructors .instructor-photos .instructor-photo-box h4 {
+    top: 200px; } }
+
+.staff-overview .instructors .instructor-photos .instructor-photo-box .instructor-headshot {
+  border: 2px solid black;
+  width: 30%;
+  height: 30%;
+  max-height: 400px;
+  max-width: 400px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  transition: all .3s ease; }
+
+@supports (-ms-ime-align: auto) {
+  .staff-overview .instructors .instructor-photos .instructor-photo-box .instructor-headshot {
+    height: auto; } }
+
+.staff-overview .instructors .instructor-photos .instructor-photo-box .instructor-headshot:hover {
+  object-position: 100% 0%; }
+
+.staff-overview .band .band-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.staff-overview .band .band-box h4 {
+  font: bold 14px 'Arvo', serif; }
+
+.staff-overview .band .band-box a {
+  color: #000000;
+  margin-top: 12px;
+  padding: 0px 2px 1px 2px;
+  text-decoration: none;
+  font: normal 14px 'Arvo', serif;
+  border-bottom: 1px solid #909090;
+  transition: all 0.3s;
+  margin-bottom: 1px; }
+
+.staff-overview .band .band-box a:hover {
+  border-bottom: 2px solid #3C56A4;
+  margin-bottom: 0px; }
+
+.staff-overview .djs .dj-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.staff-overview .djs .dj-boxes .dj {
+  padding: 0px 15px 0px 15px; }
+
+.staff-overview .djs .dj-boxes .dj h4 {
+  margin-bottom: 0px;
+  font: bold 14px 'Arvo', serif; }
+
+.staff-overview .djs .dj-boxes .dj p {
+  margin: 0px;
+  font: normal 12px 'Arvo', serif;
+  color: #808080; }
+
+.staff-overview .organizers .organizer-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.staff-overview .organizers .organizer-boxes .organizer {
+  padding: 0px 15px 0px 15px; }
+
+.staff-overview .organizers .organizer-boxes .organizer h4 {
+  margin-bottom: 0px;
+  font: bold 14px 'Arvo', serif; }
+
+.staff-overview .organizers .organizer-boxes .organizer p {
+  margin: 0px;
+  font: normal 12px 'Arvo', serif;
+  color: #808080; }
+
+/*# sourceMappingURL=staff.css.map */
+
+/*# sourceMappingURL=staff.css.map */
