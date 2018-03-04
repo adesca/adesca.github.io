@@ -1,34 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8" content="width=device-width" name="viewport">
+    <!--<meta name="viewport" content="width=device-width">-->
     <title>TXISB</title>
-    <!--<link rel="stylesheet" type="text/css" href="style/page.css">-->
-    <link rel="stylesheet" type="text/css" href="style/header.css">
-    <!--<link rel="stylesheet" type="text/css" href="style/footer.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="style/home.css">-->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">-->
     <script src="script/navbar.js"></script>
-    <script>
-        function f1() {
-            alert('f1');
-        }
-    </script>
 </head>
 <body>
-    <div class="page-container">
-        <header>
-            <div class="site-info">
-                <div id="site-logo">
-                    <img src="img/logotransp.png" alt="TXISB Logo" />
-                </div>
-                <div class="site-title">
-                    <img src="img/SwingBattleLogo_White.png" alt="TXISB Title" />
-                    <h1>TXISB</h1>
-                    <h2>Texas Intercollegiate Swing Battle</h2>
-                </div>
-                <div class="site-logo">
-                    <img src="img/logotransp.png" alt="TXISB Logo" />
-                </div>
+
+    <header id="desktop-view">
+        <div class="site-info">
+            <div class="site-title">
+                <img src="img/SwingBattleLogo_White.png" alt="TXISB Title"/>
             </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="./event">Event</a></li>
+                <li><a href="./schedule">Schedule</a></li>
+                <li><a href="./staff">Staff</a></li>
+                <li><a href="./competitions">Competitions</a></li>
+                <li><a href="./register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="collapsed" id="navbar mobile-view">
+        <div class="collapsed">
+            <div class="site-logo" id="navbar-site-logo" role="button">
+                <img src="img/logotransp.png" alt="TXISB Logo"/>
+            </div>
+        </div>
+        <div class="expanded">
             <nav>
                 <ul>
                     <li><a href="./">Home</a></li>
@@ -39,46 +45,26 @@
                     <li><a href="./register">Register</a></li>
                 </ul>
             </nav>
-        </header>
-        <aside class="closed">
-            <div class="closed">
-                <div class="site-logo" role="button">
-                    <img src="img/logotransp.png" alt="TXISB Logo" />
-                </div>
+            <div class="site-logo">
+                <img src="img/SwingBattleLogo_White.png" alt="TXISB Title"/>
             </div>
-            <div class="expanded">
-                <div class="site-logo">
-                    <img src="img/SwingBattleLogo_White.png" alt="TXISB Title" />
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="./">Home</a></li>
-                        <li><a href="./event">Event</a></li>
-                        <li><a href="./schedule">Schedule</a></li>
-                        <li><a href="./staff">Staff</a></li>
-                        <li><a href="./competitions">Competitions</a></li>
-                        <li><a href="./register">Register</a></li>
-                    </ul>
-                </nav>
-            </div>
+        </div>
 
-        </aside>
-        <section class="event-overview">
-            <div class="event-splash">
-                <img src="img/SwingBattleLogo_Color.svg" alt="" />
+    </aside>
+
+
+    <section class="event-overview">
+        <div class="event-splash">
+            <img src="img/SwingBattleLogo_Color.svg" alt="" />
+        </div>
+        <div class="event-details">
+            <h4>April 22nd, 2017</h4>
+            <h4>University of Texas</h4>
+            <h4>Austin, TX</h4>
+            <div class="register-link">
+                <a href="./register">Register Here</a>
             </div>
-            <div class="event-details">
-                <h4>April 22nd, 2017</h4>
-                <h4>University of Texas</h4>
-                <h4>Austin, TX</h4>
-                <div class="register-link">
-                    <a href="./register">Register Here</a>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <h3>Copyright � 2017 TXISB</h3>
-        </footer>
-    </div>
+        </div>
+    </section>
 </body>
 </html>

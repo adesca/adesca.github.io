@@ -1,11 +1,15 @@
 window.onload = function() {
+    const navbar =
+
     console.log('onload');
     var open = function() {
-        alert('open');
+        state.navbarOpen = !state.navbarOpen;
+        document.querySelector('aside').className =
+            state.navbarOpen ? 'expanded' : 'collapsed';
     };
 
-    document.getElementById('site-logo').addEventListener('click', open);
-    console.log('loaded ', document.getElementById('site-logo'));
+    document.getElementById('navbar-site-logo').addEventListener('click', open);
+    console.log('loaded ');
 };
 
 var state = {

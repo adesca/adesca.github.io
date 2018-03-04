@@ -11,7 +11,11 @@ aside {
     background-color: rgba(0,0,0,.6);
 }
 
-aside.closed {
+aside.collapsed {
+    width: 50px;
+}
+
+aside img {
     width: 50px;
 }
 
@@ -19,11 +23,15 @@ aside * {
     width: 100%;
 }
 
-aside.closed div.expanded {
+aside.collapsed div.expanded {
     display: none;
 }
 
-aside.closed div.closed {
+aside.expanded div.expanded {
+    display: contents;
+}
+
+aside.collapsed div.collapsed {
 
 }
 
