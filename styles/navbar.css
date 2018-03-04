@@ -54,7 +54,7 @@ nav ul li a {
   aside {
     display: block;
     position: fixed;
-    width: 40vw;
+    width: 50vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.6); }
     aside #navbar-site-logo {

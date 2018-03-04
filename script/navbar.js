@@ -1,9 +1,14 @@
 window.onload = function() {
-    const navbar =
+    var sectionClassName = undefined;
 
     console.log('onload');
     var open = function() {
         state.navbarOpen = !state.navbarOpen;
+        sectionClassName = sectionClassName || document.querySelector('section').className;
+
+
+        document.querySelector('section').className =
+            state.navbarOpen ? sectionClassName + ' shifted' : sectionClassName;
         document.querySelector('aside').className =
             state.navbarOpen ? 'expanded' : 'collapsed';
     };
