@@ -16,9 +16,8 @@ section {
   text-align: center;
   margin: auto;
   padding: 10px 0;
-  width: 40vw;
-  background-color: rgba(255, 255, 255, 0.7);
-  transition: 10s; }
+  width: 60vw;
+  background-color: rgba(255, 255, 255, 0.7); }
   section * {
     width: 100%; }
   section h4 {
