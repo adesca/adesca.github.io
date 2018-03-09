@@ -6,11 +6,28 @@ body {
   div.page {
     padding-bottom: 90px;
     padding-left: 90px;
-    padding-right: 90px; } }
+    padding-right: 90px; }
+  i {
+    display: none; }
+  .right {
+    text-align: right; }
+    .right img {
+      float: right; }
+  .left img {
+    float: left; } }
 
 @media screen and (max-width: 901px) {
   div.page {
-    padding-left: 55px; } }
+    padding-left: 55px; }
+  i {
+    opacity: .5;
+    float: right; }
+  [data-open=false] .event-info-section-content {
+    padding: 10px; }
+    [data-open=false] .event-info-section-content *:not(i) {
+      display: none; }
+  [data-open=true] i {
+    padding: 10px; } }
 
 .event-overview p {
   margin: 1em 2em 1em 2em;
@@ -34,11 +51,5 @@ body {
 
 .event-overview .event-info-section {
   max-width: 800px; }
-  .event-overview .event-info-section.right {
-    text-align: right; }
-    .event-overview .event-info-section.right img {
-      float: right; }
-  .event-overview .event-info-section.left img {
-    float: left; }
 
 /*# sourceMappingURL=event.css.map */

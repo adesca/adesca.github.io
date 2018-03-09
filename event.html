@@ -8,9 +8,10 @@
 
 <script src="script/navbar.js"></script>
 
-<!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">-->
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <title>TXISB - Event</title>
     <link rel="stylesheet" type="text/css" href="styles/event.css">
+    <script src="script/event.js"></script>
 </head>
 <body>
 
@@ -58,7 +59,7 @@
 
 <div class="page">
     <section class="event-overview">
-        <div class="event-info-section about left">
+        <div class="event-info-section about left" data-label="about">
             <h3>About</h3>
             <div class="event-info-section-content">
                 <p>The Texas Intercollegiate Swing Battle (TXISB) is an opportunity for universities across Texas to
@@ -74,9 +75,11 @@
                 </p>
                 <p>This year's inaugural event will be hosted at The University of Texas at Austin - we can't wait to
                     see you there!</p>
+
+
             </div>
         </div>
-        <div class="event-info-section location right">
+        <div class="event-info-section location right" data-label="location">
             <h3>Locations</h3>
             <div class="event-info-section-content">
                 <div class="event-location">
@@ -87,7 +90,7 @@
                 </div>
             </div>
         </div>
-        <div class="event-info-section parking left">
+        <div class="event-info-section parking left" data-label="parking">
             <h3>Parking</h3>
             <div class="event-info-section-content">
                 <div class="parking-location">
@@ -106,7 +109,7 @@
                 </div>
             </div>
         </div>
-        <div class="event-info-section housing right">
+        <div class="event-info-section housing right" data-label="housing">
             <h3>Housing</h3>
             <div class="event-info-section-content">
                 <p>We will be able to provide limited housing for Saturday night. If you are interested in receiving

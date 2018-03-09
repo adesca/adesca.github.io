@@ -1,4 +1,18 @@
-window.onload = function() {
+function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+        window.onload = func;
+    } else {
+        window.onload = function() {
+            if (oldonload) {
+                oldonload();
+            }
+            func();
+        }
+    }
+}
+
+addLoadEvent(function() {
     var sectionClassName = undefined;
 
     console.log('onload');
@@ -14,8 +28,8 @@ window.onload = function() {
     };
 
     document.getElementById('navbar-site-logo').addEventListener('click', open);
-    console.log('loaded ');
-};
+    console.log('loaded navbar script');
+});
 
 var state = {
     navbarOpen: false
