@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
+section {
+  width: 80vw; }
+
 .schedule-overview {
-  padding-top: 90px;
   width: 100%;
-  min-height: calc(100% - 2 * 90px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,8 +12,8 @@
 .schedule-overview table tr td {
   padding: 0.5em;
   text-align: center;
-  font: bold 12px "Quicksand", sans-serif;
-  width: 20vw; }
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif; }
 
 .schedule-overview table tr td.time {
   background-color: white;
@@ -38,21 +39,6 @@
 
 .schedule-overview table tr td.class .class-teachers {
   font-weight: normal; }
-
-.schedule-overview table tr td.min30 {
-  height: calc(30vh * 0.1); }
-
-.schedule-overview table tr td.min60 {
-  height: calc(60vh * 0.1); }
-
-.schedule-overview table tr td.min90 {
-  height: calc(90vh * 0.1); }
-
-.schedule-overview table tr td.min120 {
-  height: calc(120vh * 0.1); }
-
-.schedule-overview table tr td.min240 {
-  height: calc(240vh * 0.1); }
 
 .schedule-overview table tr td .schedule-location {
   font-weight: normal; }

@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
-body {
-  background-color: #4f0000; }
-
 @media screen and (min-width: 900px) {
   div.page {
     padding-bottom: 90px;

@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
+body {
+  background-color: #f5d170; }
+
 footer {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   background-color: #010C26;
-  height: 25px; }
+  height: 25px;
+  margin-top: 20px; }
   footer h3 {
     color: white;
     margin: 5px 0 5px 20px;
@@ -12,9 +16,15 @@ footer {
 
 section.shifted {
   position: relative;
-  margin-left: 45vw; }
+  margin-left: 45vw;
+  overflow: hidden;
+  width: auto; }
 
 div.page {
-  padding: 100px 0 0; }
+  padding: 50px 0 0; }
+
+@meda screen and (min-width: $breakpoint) {
+  div.page {
+    padding: 100px 0 0; } }
 
 /*# sourceMappingURL=style.css.map */
