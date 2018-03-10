@@ -3,7 +3,13 @@ body {
   background-image: url("../img/vinyl-cover.png");
   width: 100%;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-bottom: 30px; }
+
+footer {
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0; }
 
 div.page {
   padding: 100px 0 0; }
@@ -24,16 +30,18 @@ section {
     font-family: "Arvo", sans-serif;
     font-weight: bold;
     text-align: center; }
-  section .register-link a {
-    border-radius: 3px;
-    padding: 5px 10%;
-    background-color: #29469B;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    color: white; }
-    section .register-link a:hover {
-      background-color: #3C56A4; }
+  section .register-link {
+    padding-bottom: 15px; }
+    section .register-link a {
+      border-radius: 3px;
+      padding: 5px 10%;
+      background-color: #29469B;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: 'Quicksand', sans-serif;
+      color: white; }
+      section .register-link a:hover {
+        background-color: #3C56A4; }
 
 aside.expanded + section div {
   border: black thick dotted; }

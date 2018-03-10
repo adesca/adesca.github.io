@@ -3,15 +3,14 @@
   div.page {
     padding-bottom: 90px;
     padding-left: 90px;
-    padding-right: 90px; }
+    padding-right: 90px;
+    padding-top: 90px; }
   i {
     display: none; }
+  .parking-location {
+    padding-bottom: 200px; }
   .right {
-    text-align: right; }
-    .right img {
-      float: right; }
-  .left img {
-    float: left; } }
+    text-align: right; } }
 
 @media screen and (max-width: 901px) {
   div.page {

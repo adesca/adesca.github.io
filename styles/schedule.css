@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
 section {
-  width: 80vw; }
+  width: 80vw;
+  margin-left: 30px; }
 
 .schedule-overview {
   width: 100%;
@@ -10,7 +11,7 @@ section {
   padding-bottom: 90px; }
 
 .schedule-overview table tr td {
-  padding: 0.5em;
+  padding: 0.2em;
   text-align: center;
   font-weight: bold;
   font-family: "Quicksand", sans-serif; }
