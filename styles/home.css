@@ -3,13 +3,7 @@ body {
   background-image: url("../img/vinyl-cover.png");
   width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 30px; }
-
-footer {
-  margin-top: 20px;
-  position: fixed;
-  bottom: 0; }
+  background-repeat: no-repeat; }
 
 div.page {
   padding: 100px 0 0; }
@@ -42,8 +36,5 @@ section {
       color: white; }
       section .register-link a:hover {
         background-color: #3C56A4; }
-
-aside.expanded + section div {
-  border: black thick dotted; }
 
 /*# sourceMappingURL=home.css.map */

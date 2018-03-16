@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Copse|Quicksand");
+@media screen and (max-width: 901px) {
+  .tiny * {
+    font-size: x-small; } }
+
 section {
-  width: 80vw;
-  margin-left: 30px; }
+  width: 80vw; }
 
 .schedule-overview {
   width: 100%;

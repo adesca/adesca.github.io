@@ -14,7 +14,8 @@
     <script src="script/event.js"></script>
 </head>
 <body>
-
+<div class="container">
+    
     <header id="desktop-view">
         <div class="site-info">
             <div class="site-title">
@@ -35,10 +36,12 @@
     </header>
     <aside class="collapsed" id="navbar mobile-view">
         <div class="collapsed">
-            <div class="site-logo" id="navbar-site-logo" role="button">
-                <img src="img/logotransp.png" alt="TXISB Logo"/>
-            </div>
-
+            <span class="site-logo" id="navbar-site-logo" role="button">
+                &#9776;
+            </span>
+            <span class="site-logo">
+                <img src="img/SwingBattleLogo_White.png" alt="TXISB Title"/>
+            </span>
         </div>
         <div class="expanded">
             <nav>
@@ -52,87 +55,84 @@
         <li><a href="register.html">Register</a></li>
     </ul>
 </nav>
-            <div class="site-logo">
-                <img src="img/SwingBattleLogo_White.png" alt="TXISB Title"/>
-            </div>
-
         </div>
-        <i class="collapsed">&#9658;</i>
 
     </aside>
 
 
-<div class="page">
-    <section class="event-overview">
-        <div class="event-info-section about left" data-label="about">
-            <h3>About</h3>
-            <div class="event-info-section-content">
-                <p>The Texas Intercollegiate Swing Battle (TXISB) is an opportunity for universities across Texas to
-                    come together and share their love of swing dancing through collaboration, learning, and
-                    competition!</p>
-                <p>
-                    TXISB will consist of a day of workshops and dancing specifically catering to college-age dancers
-                    across Texas.
-                    We'll be hosting classes during the day for our student attendees and in the evening we'll have a
-                    dance that's open to everyone, college student or otherwise!
-                    We'll also be hosting a number of unique competitions at the event, so get ready to battle it out
-                    with your new friend on the TXISB dance floor.
-                </p>
-            </div>
-        </div>
-        <div class="event-info-section location right" data-label="location">
-            <h3>Locations</h3>
-            <div class="event-info-section-content">
-                Click the image for directions!
-                <div class="event-location">
-                    <a href="https://www.google.com/maps/search/?api=1&query=30.286662,-97.741178&query_place_id=ChIJvUZC33e1RIYR9vcE4x18F7c">
-                        <img align="RIGHT"
-                                src="https://maps.googleapis.com/maps/api/staticmap?markers=color:red%7Clabel:G%7C30.286662,-97.741178&zoom=16&size=250x250">
-                    </a>
-
-                    <p>Our base of operations as well as the location for the evening dance will be the University of
-                        Texas Union Building. It is by the intersection of 21<sup>st</sup> Street and Guadalupe Street.
+    <div class="page">
+        <section class="event-overview">
+            <div class="event-info-section about left" data-label="about">
+                <h3>About</h3>
+                <div class="event-info-section-content">
+                    <p>The Texas Intercollegiate Swing Battle (TXISB) is an opportunity for universities across Texas to
+                        come together and share their love of swing dancing through collaboration, learning, and
+                        competition!</p>
+                    <p>
+                        TXISB will consist of a day of workshops and dancing specifically catering to college-age dancers
+                        across Texas.
+                        We'll be hosting classes during the day for our student attendees and in the evening we'll have a
+                        dance that's open to everyone, college student or otherwise!
+                        We'll also be hosting a number of unique competitions at the event, so get ready to battle it out
+                        with your new friend on the TXISB dance floor.
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="event-info-section parking left" data-label="parking">
-            <h3>Parking</h3>
-            <div class="event-info-section-content">
-                Click the images for directions!
-                <div class="parking-location">
-                    <a href="https://www.google.com/maps/search/?api=1&query=30.288669,-97.742662&query_place_id=ChIJox1FE3i1RIYRtipyEIKKSAU">
-                        <img align="LEFT"
-                                src="https://maps.googleapis.com/maps/api/staticmap?markers=color:blue%7Clabel:G%7C30.288669,-97.742662&markers=30.286662,-97.741178&zoom=15&size=250x250">
-                    </a>
+            <div class="event-info-section location right" data-label="location">
+                <h3>Locations</h3>
+                <div class="event-info-section-content">
+                    Click the image for directions!
+                    <div class="event-location">
+                        <a href="https://www.google.com/maps/search/?api=1&query=30.286662,-97.741178&query_place_id=ChIJvUZC33e1RIYR9vcE4x18F7c">
+                            <img align="RIGHT"
+                                 src="https://maps.googleapis.com/maps/api/staticmap?markers=color:red%7Clabel:G%7C30.286662,-97.741178&zoom=16&size=250x250">
+                        </a>
 
-                    <p>The San Antonio Garage is an off-campus UT garage that will be the closest to the Union
-                        Building.</p>
-                </div>
-                <div class="parking-location">
-                    <a href="https://www.google.com/maps/search/?api=1&query=30.287786,-97.733280&query_place_id=ChIJ5bAm1Jq1RIYRtmmmJwpji5E">
-                        <img align="LEFT"
-                                src="https://maps.googleapis.com/maps/api/staticmap?markers=color:blue%7Clabel:G%7C30.287786,-97.733280&markers=30.286662,-97.741178&zoom=15&size=250x250">
-                    </a>
-
-                    <p>The San Jacinto Garage is a on-campus UT garage that is across from campus (and a decently
-                        lengthy walk) from the Union Building.</p>
+                        <p>Our base of operations as well as the location for the evening dance will be the University of
+                            Texas Union Building. It is by the intersection of 21<sup>st</sup> Street and Guadalupe Street.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="event-info-section housing right" data-label="housing">
-            <h3>Housing</h3>
-            <div class="event-info-section-content">
-                <p>We will be able to provide limited housing for Saturday night. If you are interested in receiving
-                    housing, please fill out our housing Google form, <a
-                            href="https://docs.google.com/forms/d/e/1FAIpQLScQiEn1JngK7TkhGPhS5Hw1zGYAOU8xwXitxeeTGk3Y08jOxg/viewform?entry.1025396582&entry.372652382&entry.322903637&entry.1947742812&entry.1605768132&entry.1396767027&entry.618070654">found
-                        here.</a></p>
+            <div class="event-info-section parking left" data-label="parking">
+                <h3>Parking</h3>
+                <div class="event-info-section-content">
+                    Click the images for directions!
+                    <div class="parking-location">
+                        <a href="https://www.google.com/maps/search/?api=1&query=30.288669,-97.742662&query_place_id=ChIJox1FE3i1RIYRtipyEIKKSAU">
+                            <img align="LEFT"
+                                 src="https://maps.googleapis.com/maps/api/staticmap?markers=color:blue%7Clabel:G%7C30.288669,-97.742662&markers=30.286662,-97.741178&zoom=15&size=250x250">
+                        </a>
+
+                        <p>The San Antonio Garage is an off-campus UT garage that will be the closest to the Union
+                            Building.</p>
+                    </div>
+                    <div class="parking-location">
+                        <a href="https://www.google.com/maps/search/?api=1&query=30.287786,-97.733280&query_place_id=ChIJ5bAm1Jq1RIYRtmmmJwpji5E">
+                            <img align="LEFT"
+                                 src="https://maps.googleapis.com/maps/api/staticmap?markers=color:blue%7Clabel:G%7C30.287786,-97.733280&markers=30.286662,-97.741178&zoom=15&size=250x250">
+                        </a>
+
+                        <p>The San Jacinto Garage is a on-campus UT garage that is across from campus (and a decently
+                            lengthy walk) from the Union Building.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-</div>
-<footer>
-    <h3>Copyright � 2017 TXISB</h3>
+            <div class="event-info-section housing right" data-label="housing">
+                <h3>Housing</h3>
+                <div class="event-info-section-content">
+                    <p>We will be able to provide limited housing for Saturday night. If you are interested in receiving
+                        housing, please fill out our housing Google form, <a
+                                href="https://docs.google.com/forms/d/e/1FAIpQLScQiEn1JngK7TkhGPhS5Hw1zGYAOU8xwXitxeeTGk3Y08jOxg/viewform?entry.1025396582&entry.372652382&entry.322903637&entry.1947742812&entry.1605768132&entry.1396767027&entry.618070654">found
+                            here.</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+    <h3>Copyright &copy; 2017 TXISB</h3>
 </footer>
+</div>
+
 </body>
 </html>

@@ -14,7 +14,8 @@
 
 @media screen and (max-width: 901px) {
   div.page {
-    padding-left: 55px; }
+    padding-left: 5vw;
+    padding-right: 3vw; }
   i {
     opacity: .5;
     float: right; }
