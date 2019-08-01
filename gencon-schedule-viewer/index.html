@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whats up gencon</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div id="options">
+    <select id="current-time">
+        <option value="0">12 am</option>
+        <option value="1">1 am</option>
+        <option value="2">2 am</option>
+        <option value="3">3 am</option>
+        <option value="4">4 am</option>
+        <option value="5">5 am</option>
+        <option value="6">6 am</option>
+        <option value="7">7 am</option>
+        <option value="8">8 am</option>
+        <option value="9">9 am</option>
+        <option value="10">10 am</option>
+        <option value="11">11 am</option>
+        <option value="12">12 pm</option>
+        <option value="13">1 pm</option>
+        <option value="14">2 pm</option>
+        <option value="15">3 pm</option>
+        <option value="16">4 pm</option>
+        <option value="17">5 pm</option>
+        <option value="18">6 pm</option>
+        <option value="19">7 pm</option>
+        <option value="20">8 pm</option>
+        <option value="21">9 pm</option>
+        <option value="22">10 pm</option>
+        <option value="23">11 pm</option>
+    </select>
+
+    <select id="current-day">
+        <option value="1">Thursday</option>
+        <option value="2">Friday</option>
+        <option value="3">Saturday</option>
+        <option value="4">Sunday</option>
+    </select>
+
+    <button class="btn btn-primary">Search!</button>
+</div>
+
+<div id="result-summary">
+    <div id="synopsis"></div>
+    <span id="more"></span>
+    <button id="next" class="btn-secondary" disabled>next</button>
+</div>
+<div id="results" class="row">
+
+    <div class="w-50" id="all">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Event type</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Location</th>
+                <th scope="col">Details</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="w-50" id="details">
+        Details:
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Key</th>
+                    <th scope="col">Value</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+
+</div>
+
+<script src="bundle.js"></script>
+</body>
+</html>
