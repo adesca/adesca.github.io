@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pandemic-game/static/css/main.01264426.chunk.css",
+    "main.js": "/pandemic-game/static/js/main.6d5fd950.chunk.js",
+    "main.js.map": "/pandemic-game/static/js/main.6d5fd950.chunk.js.map",
+    "runtime-main.js": "/pandemic-game/static/js/runtime-main.b5f83256.js",
+    "runtime-main.js.map": "/pandemic-game/static/js/runtime-main.b5f83256.js.map",
+    "static/css/2.89f067aa.chunk.css": "/pandemic-game/static/css/2.89f067aa.chunk.css",
+    "static/js/2.3bb27c42.chunk.js": "/pandemic-game/static/js/2.3bb27c42.chunk.js",
+    "static/js/2.3bb27c42.chunk.js.map": "/pandemic-game/static/js/2.3bb27c42.chunk.js.map",
+    "index.html": "/pandemic-game/index.html",
+    "precache-manifest.0d14ffe5f9892decbb2d3c8ca2db090b.js": "/pandemic-game/precache-manifest.0d14ffe5f9892decbb2d3c8ca2db090b.js",
+    "service-worker.js": "/pandemic-game/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/pandemic-game/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.01264426.chunk.css.map": "/pandemic-game/static/css/main.01264426.chunk.css.map",
+    "static/js/2.3bb27c42.chunk.js.LICENSE.txt": "/pandemic-game/static/js/2.3bb27c42.chunk.js.LICENSE.txt",
+    "static/media/legend.jpeg": "/pandemic-game/static/media/legend.bf8b6ea5.jpeg",
+    "static/media/mainBoard.png": "/pandemic-game/static/media/mainBoard.4b91ef39.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5f83256.js",
+    "static/css/2.89f067aa.chunk.css",
+    "static/js/2.3bb27c42.chunk.js",
+    "static/css/main.01264426.chunk.css",
+    "static/js/main.6d5fd950.chunk.js"
+  ]
+}
