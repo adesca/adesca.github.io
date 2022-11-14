@@ -1,8 +1,5 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export GH_CREDENTIALS_USR=PP6K13K
-export GH_CREDENTIALS_PSW=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
-export DISABLE_IBMMQ_TEST=true
 
 bindkey "[D" backward-word
 bindkey "[C" forward-word
@@ -10,19 +7,19 @@ bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/adeolu-works/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "avit")
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -81,7 +78,7 @@ setopt histexpiredupsfirst
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages)
+plugins=(git colored-man-pages zsh-nvm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -121,7 +118,3 @@ if [ -f '/Users/adeolu-works/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . 
 if [ -f '/Users/adeolu-works/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/adeolu-works/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 eval "$(direnv hook zsh)"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

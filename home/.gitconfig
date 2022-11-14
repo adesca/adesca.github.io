@@ -2,10 +2,11 @@
 	st = status
 	co = checkout
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ll = --no-pager log -n 20 --pretty=oneline
 [user]
 	name = Adeolu Babatunde
 	email = adeolutechs@gmail.com
 [pull]
 	ff = only
 [core]
-	commentChar = *
+	commentChar = #
