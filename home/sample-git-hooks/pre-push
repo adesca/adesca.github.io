@@ -1,0 +1,25 @@
+echo "Running unit tests**"
+
+
+changedFilesCount=$(git status --porcelain | wc -l)
+echo $changedFilesCount
+
+if [ $changedFilesCount != "0" ]
+then
+  echo "Stashing local changes"
+  git stash -q --keep-index
+fi
+
+./gradlew test jacocoTestCoverageVerification
+
+status=$?
+
+if [ $changedFilesCount != "0" ]
+then
+  echo "Popping stashed changes"
+  git stash pop -q
+fi
+
+echo "**Done with unit tests**"
+
+exit $status
