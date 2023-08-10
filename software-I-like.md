@@ -1,0 +1,4 @@
+- flycut
+- hammerspoon/shiftIt
+- iterm
+- homebrew
